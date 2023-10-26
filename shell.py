@@ -13,7 +13,7 @@ from src.modules.shared.infrastructure import Bootstrap
 
 bootstrap = Bootstrap(
     registries=[
-        # Inyect to the bootstrap your registries
+        # Inject to the bootstrap your registries
     ],
     debug=False
 )
