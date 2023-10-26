@@ -3,3 +3,4 @@
 pep8
 pytest
 coverage
+pre-commit

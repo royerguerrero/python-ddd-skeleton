@@ -14,6 +14,7 @@ from src.modules.shared.infrastructure import Bootstrap
 bootstrap = Bootstrap(
     registries=[
         # Inject to the bootstrap your registries
+        # DummyRegistry,
     ],
     debug=False
 )
@@ -37,4 +38,3 @@ c.InteractiveShellApp.exec_lines = [
 IPython.start_ipython(argv=[], user_ns={
     'bootstrap': bootstrap,
 }, config=c)
-
